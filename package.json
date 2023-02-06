@@ -1,0 +1,29 @@
+{
+  "name": "webwise",
+  "version": "0.1.0",
+  "description": "WebWise is a comprehensive, user-friendly WordPress theme designed for website owners and administrators looking to streamline and simplify the editing process. With its intuitive interface, powerful tools, and advanced customization options, WebWise makes it easy to achieve the perfect website for your brand. Whether you're a beginner or an experienced web designer, WebWise has everything you need to create a professional, fully-functional website with ease. From real-time site previews to custom post types, the WebWise theme is the smart choice for website success.",
+  "author": "GetMediaWise",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Themes"
+  ],
+  "devDependencies": {
+    "@wordpress/browserslist-config": "^3.0.0",
+    "laravel-mix": "^6.0.41",
+    "postcss-preset-env": "^7.2.3",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.75.0"
+  },
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ],
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  }
+}
